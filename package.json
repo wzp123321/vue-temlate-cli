@@ -17,7 +17,7 @@
   "author": "wanzp",
   "license": "ISC",
   "bin": {
-    "ts-cli": "./src/cli.js"
+    "ts-cli": "./src/cli"
   },
   "dependencies": {
     "chalk": "^5.2.0",
