@@ -83,3 +83,9 @@ pnpm install download-git-repo
 
 <br/>
 <br/>
+
+9.配置打包
+
+```
+"build": "rimraf lib && tsc --outDir lib --module es2022"
+```
