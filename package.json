@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
-    "build": "vite build && tsc"
+    "build": "vite build"
   },
   "keywords": [
     "vue-cli",

@@ -1,3 +1,10 @@
-import * as run from "./cli";
+#! /usr/bin/env node
 
-export default run;
+/**
+ * 脚手架实现工程搭建
+ */
+'use strict';
+
+import main from './command.js'
+
+main();
