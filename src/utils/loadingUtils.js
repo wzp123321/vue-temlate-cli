@@ -32,12 +32,13 @@ export const loadingUtils = async (message, callback, other) => {
       \r\n  ${chalk.gray.bold('npm install')}
       \r\n  ${chalk.gray.bold('npm run dev')}
       \r\n  ${chalk.gray.bold(
-        '问题、意见、建议请反馈至：https://github.com/Redstone-1/xwg-cli/issues'
+        '问题、意见、建议请反馈至：https://github.com/wzp123321/vue-vite-template/issues'
       )}
       `
     );
     return res;
   } catch (error) {
+    console.log('error----------', error);
     // 加载失败
     spinner.fail('请求失败，正在重试...');
     await sleep(1000);

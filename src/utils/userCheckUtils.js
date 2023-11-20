@@ -5,7 +5,7 @@ export const prompt = async (prompts) => {
 };
 
 /** 询问要创建的项目类型 */
-export const askCreateType = async () => {
+export const userCheckUtils = async () => {
   const { projectType } = await prompt([
     // 返回值为 Promise
     // 具体配置参见：https://www.npmjs.com/package/inquirer#questions
