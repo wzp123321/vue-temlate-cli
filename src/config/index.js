@@ -1,5 +1,5 @@
 import fs from 'fs-extra';
-import path from 'path-browserify';
+import path from 'node:path';
 import { fileURLToPath } from 'url';
 const __filenameNew = fileURLToPath(import.meta.url);
 const __dirnameNew = path.dirname(__filenameNew);

@@ -1,4 +1,4 @@
-import { loadingUtils } from './loadingUtils';
-import { userCheckUtils } from './userCheckUtils';
-import { downloadGitRepo } from './downloadUtils';
+import { loadingUtils } from './loadingUtils.js';
+import { userCheckUtils } from './userCheckUtils.js';
+import { downloadGitRepo } from './downloadUtils.js';
 export { loadingUtils, userCheckUtils, downloadGitRepo };
