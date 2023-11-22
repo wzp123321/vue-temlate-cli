@@ -1,7 +1,7 @@
 {
-  "name": "vue-template-cli",
-  "version": "1.0.0",
-  "description": "vue template cli",
+  "name": "z-great-cli",
+  "version": "1.0.2",
+  "description": "vue,cli",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
@@ -16,7 +16,7 @@
   "license": "ISC",
   "type": "module",
   "bin": {
-    "z-vue-cli": "src/index.js"
+    "z-vue-cli": "bin/index.js"
   },
   "dependencies": {
     "chalk": "^5.2.0",

@@ -5,15 +5,15 @@ import chalk from 'chalk';
 import create from './create/index.js';
 import { LOGO, VERSION } from './config/index.js';
 const main = () => {
-    // 版本信息
-    program.version(`\r\n  VERSION:${chalk.cyan.bold(VERSION)}
+  // 版本信息
+  program.version(`\r\n  VERSION:${chalk.cyan.bold(VERSION)}
     ${chalk.cyan.bold(LOGO)}`);
-    // help
-    program.on('--help', function () {
-        console.log(`\r\n终端执行 ${chalk.cyan.bold('z-cli <command> --help')} 获取更多命令详情\r\n`);
-    });
-    program.name(chalk.cyan('z-vue-cli')).usage(`${chalk.yellow('<command>')} [options]`);
-    create();
-    program.parse(process.argv);
+  // help
+  program.on('--help', function () {
+    console.log(`\r\n终端执行 ${chalk.cyan.bold('z-great-cli <command> --help')} 获取更多命令详情\r\n`);
+  });
+  program.name(chalk.cyan('z-great-cli')).usage(`${chalk.yellow('<command>')} [options]`);
+  create();
+  program.parse(process.argv);
 };
 export default main;
