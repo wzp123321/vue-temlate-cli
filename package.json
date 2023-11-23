@@ -1,6 +1,6 @@
 {
   "name": "z-great-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vue,cli",
   "main": "index.js",
   "scripts": {
