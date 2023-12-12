@@ -15,6 +15,7 @@ export const userCheckUtils = async () => {
         { name: 'vue', value: 'vue' },
         { name: 'react', value: 'react' },
         { name: 'uniapp', value: 'uniapp' },
+        { name: 'web-H5', value: 'web-H5' },
       ],
     },
     {
